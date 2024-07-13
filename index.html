@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge AluraGeek</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="/style.css"> 
+</head>
+
+<body>
+    <header>
+        <div id="encabezado" class="contenido-centrado">
+            <div id="logo" class="contenido-centrado">
+                <img class= "logoEncabezado contenido-centrado" src="/Imagen/Logo/Logo.png">
+            </div>    
+        </div>
+    </header>
+    <main id="productos-formulario">
+        <section id="mis-productos">
+            <h1>Mis Productos:</h1>
+            <div data-product class="productos"> 
+            </div>
+        </section>
+        <section id="agregar-producto">
+            <div data-form class="formulario">
+                <form id="formulario-productos">
+                    <div class="contenido-centrado"><h1>!AGREGAR<br>PRODUCTO:</h1></div>
+                    <div class="input-productos"><input data-titulo type="text" placeholder="Nombre..." class="titulo-producto" required></div>
+                    <div class="input-productos"><input data-precio type="text" placeholder="Precio..." class="precio-producto" required></div>
+                    <div class="input-productos"><input data-imagen type="url" placeholder="Imagen..." class="imagen-url-producto" required></div>
+                    <div class="botones">
+                        <button class="boton-enviar" type="submit">Enviar</button>
+                        <button class="boton-limpiar" type="reset">Limpiar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="pie-pagina" class="contenido-centrado">
+            <div id="pie-logo" class="contenido-centrado">
+                <img class= "logoEncabezado contenido-centrado" src="/Imagen/Logo/Logo.png">
+            </div>     
+            </div> 
+            <p class="contenido-centrado">Desarrollado por &#169Luis.Dev</p>
+            <p class="contenido-centrado">Alura LATAM - 2024</p>      
+        </div>
+    </footer>
+    <script src="/main.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "packproductos.json",
+  "version": "1.0.0",
+  "main": "script1.js",
+  "scripts": {
+    "start":"json-server --watch db.json"
+  },
+  "author": "Voltar",
+  "license": "ISC",
+  "description": "Productos",
+  "keywords": [
+    "pack",
+    "productos"
+  ],
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}

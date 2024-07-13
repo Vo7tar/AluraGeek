@@ -1,0 +1,24 @@
+{
+  "productos": [
+    {
+      "titulo": "Game cube",
+      "precio": "120",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Gamecube-console.png/640px-Gamecube-console.png"
+    },
+    {
+      "titulo": "Stormtrooper",
+      "precio": "60",
+      "imagen": "../imagen/productos/image 1.png"
+    },
+    {
+      "titulo": "Game Boy Classic",
+      "precio": "60",
+      "imagen": "../imagen/productos/image 2.png"
+    },
+    {
+      "titulo": "SNES",
+      "precio": "70",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/PAL-SNES.png/700px-PAL-SNES.png"
+    }
+  ]
+}
